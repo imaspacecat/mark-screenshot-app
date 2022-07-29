@@ -1,4 +1,4 @@
-#!/home/spacecat/coding/mark-screenshot-ocr/app/venv/bin/python3
+#!/home/spacecat/coding/mark-screenshot-app/app/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

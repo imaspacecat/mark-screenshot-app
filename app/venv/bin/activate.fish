@@ -29,7 +29,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/spacecat/coding/mark-screenshot-ocr/app/venv"
+set -gx VIRTUAL_ENV "/home/spacecat/coding/mark-screenshot-app/app/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
