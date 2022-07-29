@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-files = os.listdir("static/images/")
+files = os.listdir("app/static/images/")
 files = ["images/" + file for file in files]
 
 @app.route("/")
