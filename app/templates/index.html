@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+	<div id="images">
+		{% for file in files %}
+			<img class="move" width="200" src="{{ url_for("static", filename=file) }}" alt={{ file }}>
+		{% endfor %}
+	</div>
+	<h1 class="pt-2">...Mark Screenshots...</h1>
+	<p id="background">Click on an image to zoom!</p>
+
+	<script src="{{ url_for('static',filename='js/scroll.js') }}"></script>
+{% endblock %}

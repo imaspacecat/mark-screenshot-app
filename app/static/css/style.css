@@ -1,0 +1,30 @@
+#footer {
+	font-size: 13px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding-right: 10px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+div#images {
+	height: 500px;
+}
+
+img {
+	position: fixed;
+}
+
+h1 {
+	position: relative;
+	top: 0;
+	background-color: white;
+	width: fit-content;
+}
+
+p#background {
+	position: relative;
+	background-color: white;
+	width: fit-content;
+
+}
